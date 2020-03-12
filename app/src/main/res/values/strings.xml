@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CH Center</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string-array name="bloodgroups">
+        <item>O+ve</item>
+        <item>O-ve</item>
+        <item>A+ve</item>
+        <item>A-ve</item>
+        <item>AB+ve</item>
+        <item>AB-ve</item>
+        <item>B+ve</item>
+        <item>B-ve</item>
+    </string-array>
+    <string name="tab_text_1">UPDATE</string>
+    <string name="tab_text_2">SERVICE</string>
+    <string name="tab_text_3">BLOOD BANK</string>
+
+
+
+    <string name="card_name">Name</string>
+    <string name="card_contact">Contact</string>
+    <string name="card_title">TITTLE</string>
+    <string name="card_content">This data </string>
+    <string name="card_place">Place</string>
+    <string name="card_sepacialization">Sepecialization</string>
+    <string name="card_Venue">card_Venue</string>
+    <string name="Venue">Venue</string>
+    <string name="Date">Date</string>
+</resources>

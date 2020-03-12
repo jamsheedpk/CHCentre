@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "408039646672",
+    "firebase_url": "https://ch-center.firebaseio.com",
+    "project_id": "ch-center",
+    "storage_bucket": "ch-center.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408039646672:android:78c84bb5e546dbdfe045d5",
+        "android_client_info": {
+          "package_name": "com.example.chcenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408039646672-4voe71ksbt86l1ioqm0urr9jg8e29fu0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chcenter",
+            "certificate_hash": "f0f7e184cecff3cc76057988872b81eef1ff9110"
+          }
+        },
+        {
+          "client_id": "408039646672-08lmdtgllj42fmvlodhm9i9dp59lm0lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMxmXjHT-wKBIhm3IT-Q_kEqVg8AqntTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408039646672-08lmdtgllj42fmvlodhm9i9dp59lm0lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

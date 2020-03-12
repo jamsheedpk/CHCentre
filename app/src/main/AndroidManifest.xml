@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chcenter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Requirments"
+            android:parentActivityName=".Main2Activity"/>
+        <activity
+            android:name=".Programs"
+            android:parentActivityName=".Main2Activity" />
+        <activity android:name=".DonationActivity"
+            android:parentActivityName=".Main2Activity"/>
+
+        <activity android:name=".FoodActivity"
+            android:parentActivityName=".DonationActivity"/>
+
+        <activity android:name=".Profile_Activity"
+            android:parentActivityName=".Main2Activity"/>
+
+        <activity android:name=".OnCashActivity"
+            android:parentActivityName=".DonationActivity"  />
+
+
+        <activity android:name=".History_Activity"
+            android:parentActivityName=".Main2Activity"/>
+
+        <activity android:name=".Office_Activity"
+            android:parentActivityName=".Main2Activity"/>
+
+        <activity android:name=".AddBlood"
+            android:parentActivityName=".Main2Activity"></activity>
+        <activity android:name=".SignUP" />
+        <activity
+            android:name=".Main2Activity"
+
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+
+        <activity android:name=".DoctorDetails" />
+        <activity android:name=".VolunteerDetails" />
+        <activity android:name=".Ambulance_Registration"
+            android:parentActivityName=".Main2Activity"/>
+
+        <activity android:name=".activities.BloodGroupsActivity"
+            android:parentActivityName=".Main2Activity"/>
+
+        <activity android:name=".activities.DoctorsActivity"
+            android:parentActivityName=".Main2Activity"/>
+
+        <activity android:name=".activities.VolunteersActivity"
+            android:parentActivityName=".Main2Activity"/>
+
+
+
+        <activity android:name=".activities.AmbulancesActivity"
+            android:parentActivityName=".Main2Activity"></activity>
+
+        <activity android:name=".activities.FreezersActivity"
+            android:parentActivityName=".Main2Activity"/>
+
+        <activity android:name=".details.FreezerDetails" />
+        <activity android:name=".AmbulDetails" />
+        <activity android:name=".MorningDoctors" android:parentActivityName=".Main2Activity"></activity>
+    </application>
+
+</manifest>
