@@ -19,15 +19,15 @@ class Fragment_Update : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view:View=inflater.inflate(R.layout.fragment_update, container,false)
-        view.textView15.setOnClickListener {view->
+        view.layout_doctor.setOnClickListener {view->
             val intent=Intent(activity,MorningDoctors::class.java)
             startActivity(intent)
         }
-        view.textView17.setOnClickListener { view ->
+        view.layout_programs.setOnClickListener { view ->
             val intent = Intent(activity, Programs::class.java)
             startActivity(intent)
         }
-        view.textView16.setOnClickListener { view ->
+        view.layout_requirements.setOnClickListener { view ->
             val intent = Intent(activity, Requirments::class.java)
             startActivity(intent)
         }
