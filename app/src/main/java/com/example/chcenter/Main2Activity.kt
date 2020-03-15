@@ -30,7 +30,7 @@ class Main2Activity : AppCompatActivity() {
         val tabs: TabLayout = findViewById(R.id.tabs)
         tabs.setupWithViewPager(viewPager)
         val toolbar: Toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("CH Centre")
+        toolbar.title = "CH Centre"
         setSupportActionBar(toolbar)
 
     }
